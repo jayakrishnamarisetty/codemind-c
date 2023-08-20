@@ -9,14 +9,14 @@ int main()
         scanf("%d",&a[i]);
         
     }
-    int b,c,count=0;
+    int b,c,co=0;
     scanf("%d%d",&b,&c);
     for(i=0;i<n;i++)
     {
         if(a[i]<b || a[i]>c)
         {
-            count+=a[i];
+            co+=a[i];
         }
     }
-    printf("%d",count);
+    printf("%d",co);
 }
